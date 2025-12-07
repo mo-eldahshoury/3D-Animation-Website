@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #1f242d;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 9%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+#bee-model {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
+    transition: transform 0.1s ease-out;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 40px 9% 0;
+}
+
+.home h1 {
+    font-size: 150px;
+    color: transparent;
+    text-shadow: 0 0 10px #fff;
+    -webkit-text-stroke: 2px #fff;
+    text-align: center;
+}
+
+.about {
+    justify-content: flex-end;
+}
+
+.about .about-content {
+    width: 50%;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.about-content a {
+    display: inline-block;
+    padding: 12px 40px;
+    background: #4f68f2;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #4f68f2;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.gallery-content {
+    display: flex;
+    gap: 100px;
+}
+
+.gallery-content .outer {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 26px;
+    border: 2px solid #fff;
+}
+
+.gallery-content .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    border: 2px solid #fff;
+}
+
+.gallery-content .inner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.contact-form {
+    width: 600px;
+}
+
+.contact-form h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    height: 300px;
+    resize: none;
+}
+
+.contact-form button {
+    display: block;
+    padding: 12px 40px;
+    background: #4f68f2;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 10px #4f68f2;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.contact-form button:hover {
+    background: #3a50c4;
+    box-shadow: 0 0 15px #3a50c4;
+}
+
+@media (max-width: 992px) {
+    header {
+        padding: 12px 6%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav a {
+        margin-left: 24px;
+        font-size: 16px;
+    }
+
+    .home h1 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 12px 5%;
+    }
+
+    nav {
+        position: static;
+        left: auto;
+        right: auto;
+        top: auto;
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        padding: 0;
+        transform: none;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    nav a {
+        margin-left: 12px;
+        font-size: 18px;
+        padding: 8px 6px;
+    }
+
+    .logo {
+        z-index: 101;
+    }
+
+    #bee-model {
+        pointer-events: none;
+        position: fixed;
+        width: 240px;
+        height: auto;
+        right: 16px;
+        bottom: 16px;
+        top: auto;
+        left: auto;
+        z-index: 50;
+        opacity: 0.95;
+    }
+
+    section {
+        padding-top: 90px;
+        height: auto;
+        min-height: calc(100vh - 90px);
+    }
+
+    .home h1 {
+        font-size: 56px;
+    }
+
+    .about .about-content {
+        width: 90%;
+    }
+
+    .gallery-content {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .gallery-content .outer {
+        width: 90%;
+        height: 300px;
+    }
+
+    #gallery, .gallery, .gallery-content { display: none !important; }
+
+    .contact-form {
+        width: 90%;
+    }
+}

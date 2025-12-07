@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animation Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo">Animation</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <model-viewer src="stylized_flying_bee_bird_rigged.glb" id="bee-model" camera-orbit="90deg 90deg"
+        autoplay></model-viewer>
+    <section id="home" class="home">
+        <h1>Animation Website</h1>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to our 3D Animation Website! We specialize in creating stunning 3D animations and models for
+                various applications, including games, films, and virtual reality experiences. Our team of talented
+                artists and animators are passionate about bringing ideas to life through cutting-edge technology and
+                creativity.</p>
+            <a href="#">View More</a>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="gallery">
+        <div class="gallery-content">
+            <div class="outer">
+                <div class="inner">
+                    <img src="./img/bee1.png" alt="Bee Image 1">
+                </div>
+            </div>
+            <div class="outer">
+                <div class="inner"></div>
+            </div>
+            <div class="outer">
+                <div class="inner">
+                    <img src="./img/bee3.png" alt="Bee Image 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <form class="contact-form">
+            <h2>Contact</h2>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
