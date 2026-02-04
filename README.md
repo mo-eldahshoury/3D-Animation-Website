@@ -7,12 +7,6 @@ A high-performance, visually stunning 3D interactive website that pushes the bou
 
 ---
 
-## 📸 Preview
-*(Recommended: Add a high-quality GIF of your 3D transitions here)*
-`![Project Preview](assets/preview.gif)`
-
----
-
 ## 🚀 Key Features
 
 * **Interactive 3D Environments:** High-fidelity models integrated seamlessly into the DOM.
