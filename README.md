@@ -23,7 +23,7 @@ A high-performance, visually stunning 3D interactive website that pushes the bou
 | **Smoothing** | [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/) |
 | **Styling** | Advanced CSS3 (Flexbox/Grid/Glassmorphism) |
 | **Deployment** | GitHub Pages |
-
+ 
 ## 🕹️ Local Setup
 
 1. **Clone the repository:**
