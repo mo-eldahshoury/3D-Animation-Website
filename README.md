@@ -14,7 +14,7 @@ A high-performance, visually stunning 3D interactive website that pushes the bou
 * **Butter-Smooth Performance:** Optimized rendering loops for 60fps interaction.
 * **Modern UI/UX:** Minimalist design principles focused on content and typography.
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
 
 | Category | Technology |
 | :--- | :--- |
