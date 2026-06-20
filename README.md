@@ -1,6 +1,7 @@
 # 🪐 3D Immersive Animation Experience
 
-[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen.svg)](https://mo-eldahshoury.github.io/3D-Animation-Website/)
+[![Live Demo]
+(https://img.shields.io/badge/demo-online-brightgreen.svg)](https://mo-eldahshoury.github.io/3D-Animation-Website/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A high-performance, visually stunning 3D interactive website that pushes the boundaries of web-based storytelling. Built with a focus on smooth motion and immersive user experience.
