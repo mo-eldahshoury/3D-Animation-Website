@@ -24,7 +24,7 @@ A high-performance, visually stunning 3D interactive website that pushes the bou
 | **Styling** | Advanced CSS3 (Flexbox/Grid/Glassmorphism) |
 | **Deployment** | GitHub Pages |
  
-## 🕹️ Local Setup
+## 🕹️ Local Setup 
 
 1. **Clone the repository:**
    ```bash
